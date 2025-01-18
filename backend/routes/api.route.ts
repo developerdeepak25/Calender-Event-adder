@@ -115,7 +115,7 @@ router.post("/create-event", (req: Request, res: Response) => {
         refresh_token: req.session.refreshToken,
       });
 
-      // Token refresh handling - (AI added this setup i have nothing to do with it)
+      // Token refresh handling - (AI added this step i have nothing to do with it)
       oauth2Client.on("tokens", (tokens) => {
         if (tokens.refresh_token) {
           req.session.refreshToken = tokens.refresh_token || undefined;
@@ -135,7 +135,7 @@ router.post("/create-event", (req: Request, res: Response) => {
       console.log("existingEvents", existingEvents);
       
 
-      // Check if an event with the same summary already exists-  (AI added this setup i have nothing to do with it probably there was no need for it since query should be enough)
+      // Check if an event with the same summary already exists-  (AI added this step i have nothing to do with it probably there was no need for it since query should be enough)
       const duplicateExists = existingEvents.data.items?.some(
         (event) => event.summary === summary
       );
