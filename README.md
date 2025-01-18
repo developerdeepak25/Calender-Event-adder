@@ -124,4 +124,5 @@ npm run dev
 
 3. Event Added to Google Calendar
 
-  ![Screenshot 2025-01-18 150238](https://github.com/user-attachments/assets/65f4f914-ce03-435d-81ea-677e4ce8f92a)
+   ![Screenshot 2025-01-18 151624](https://github.com/user-attachments/assets/41f3b9ae-6d18-4bd6-9db1-bf6634b69c4d)
+
