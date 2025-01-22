@@ -51,7 +51,6 @@ const fakeEvents = [
 
 function App() {
   const [events] = useState<Event[]>(fakeEvents);
-  console.log(import.meta.env.VITE_CLIENT_ID);
 
   return (
     <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mx-32 my-20">
